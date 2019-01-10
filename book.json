@@ -1,0 +1,34 @@
+{
+	"gitbook": ">=3.0.0" ,
+	"output.name": "book",
+	"language": "zh-hans",
+	"title": "fastmock教程",
+	"description": "fastmock教程",
+	"plugins": ["prism", "-highlight", "github", "favicon", "lightbox"],
+	"pluginsConfig": {
+		"prism": {
+			"lang": {
+				"flow": "typescript"
+			},
+			"ignore": [
+				"mermaid",
+				"eval-js"
+			],
+			"css": [
+				"prismjs/themes/prism-tomorrow.css"
+			]
+		},
+		"github": {
+			"url": "https://github.com/MarvenGong/fastmock"
+		},
+		"favicon": {
+			"shortcut": "assets/images/favicon.ico",
+			"bookmark": "assets/images/favicon.ico",
+			"appleTouch": "assets/images/favicon.ico",
+			"appleTouchMore": {
+					"120x120": "assets/images/fastmock-ico.png",
+					"180x180": "assets/images/fastmock-ico.png"
+			}
+		}
+	}
+}
