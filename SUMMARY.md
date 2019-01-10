@@ -5,3 +5,5 @@
 * [2.创建项目](newproject.md)
 * [3.项目和接口管理](projectdetail.md)
   * [3.1.接口管理](projectapi.md)
+  * [3.2.项目成员管理](projectmember.md)
+  * [3.3.接口的预览和使用](useapi.md)
