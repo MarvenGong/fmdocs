@@ -2,8 +2,12 @@
 	"gitbook": ">=3.0.0" ,
 	"output.name": "book",
 	"language": "zh-hans",
+	"auth": "Marven Gong",
 	"title": "fastmock教程",
 	"description": "fastmock教程",
+	"structure": {
+		"readme": "default.md"
+	},
 	"plugins": ["prism", "-highlight", "github", "favicon", "lightbox"],
 	"pluginsConfig": {
 		"prism": {

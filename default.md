@@ -1,4 +1,5 @@
 ### fastmock是什么
+[fastmock线上地址www.fastmock.site](https://www.fastmock.site)
 > 说明：文档中的所有图片若太小看不清可点击放大查看。文档中涉及到的fastmock网站的地址均使用的IP地址，实际使用时为域名。
 
 fastmock可以让你在没有后端程序的情况下能真实地在线模拟ajax请求，你可以用fatmock实现项目初期纯前端的效果演示，也可以用fastmock实现开发中的数据模拟从而实现前后端分离。在使用fastmock之前，你的团队实现数据模拟可能是下面的方案中的一种或者多种
