@@ -1,0 +1,370 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.注册和登录 · fastmock教程</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="newproject.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    
+        <link rel="shortcut icon" href='assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='assets/images/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/fastmock-ico.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fastmock-ico.png">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" >
+            
+                <a target="_blank" href="https://www.fastmock.site">
+            
+                    
+                    0.登录fastmock
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    1.介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="sigin.html">
+            
+                <a href="sigin.html">
+            
+                    
+                    2.注册和登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="newproject.html">
+            
+                <a href="newproject.html">
+            
+                    
+                    2.创建项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="projectdetail.html">
+            
+                <a href="projectdetail.html">
+            
+                    
+                    3.项目和接口管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="projectapi.html">
+            
+                <a href="projectapi.html">
+            
+                    
+                    3.1.接口管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="projectmember.html">
+            
+                <a href="projectmember.html">
+            
+                    
+                    3.2.项目成员管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="useapi.html">
+            
+                <a href="useapi.html">
+            
+                    
+                    3.3.接口的预览和使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >2.注册和登录</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><h2 id="&#x6CE8;&#x518C;&#x5E76;&#x767B;&#x5F55;fastmock">&#x6CE8;&#x518C;&#x5E76;&#x767B;&#x5F55;fastmock</h2>
+<p>&#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x6CE8;&#x518C;&#x4E86;fastmock&#x8D26;&#x53F7;&#xFF0C;&#x8FDB;&#x5165;&#x767B;&#x5F55;&#x9875;&#x9762;&#x767B;&#x5F55;&#x5373;&#x53EF;</p>
+<p></p><div align="center">
+  <a href="http://fastmock.ufile.ucloud.com.cn/fastmock-sigin.jpg" data-lightbox="fd0f254c-909e-4350-b3fc-2c7560f99b62" data-title="&#x767B;&#x5F55;" target="_blank"><img title="&#x767B;&#x5F55;" alt="&#x767B;&#x5F55;" width="400" src="http://fastmock.ufile.ucloud.com.cn/fastmock-sigin.jpg"></a>
+</div>
+&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x6CA1;&#x6709;fastmock&#x8D26;&#x53F7;&#xFF0C;&#x70B9;&#x51FB;&#x767B;&#x5F55;&#x9875;&#x9762;&#x6700;&#x4E0B;&#x9762;&#x7684;&#x6CE8;&#x518C;&#x8DF3;&#x8F6C;&#x5230;&#x6CE8;&#x518C;&#x9875;&#x9762;&#x7136;&#x540E;&#x5F55;&#x5165;&#x5FC5;&#x8981;&#x7684;&#x4FE1;&#x606F;&#x5B8C;&#x6210;&#x6CE8;&#x518C;&#x3002;<p></p>
+<p></p><div align="center">
+  <a href="http://fastmock.ufile.ucloud.com.cn/fastmock-register.jpg" data-lightbox="f1344a3d-3b23-477f-b243-ded3ce42c071" data-title="&#x6CE8;&#x518C;" target="_blank"><img title="&#x6CE8;&#x518C;" alt="&#x6CE8;&#x518C;" width="400" src="http://fastmock.ufile.ucloud.com.cn/fastmock-register.jpg"></a>
+</div>
+&#x6CE8;&#x518C;&#x6210;&#x529F;&#x540E;&#x9875;&#x9762;&#x4F1A;&#x56DE;&#x5230;&#x767B;&#x5F55;&#xFF0C;&#x767B;&#x5F55;&#x5373;&#x53EF;&#x3002;<p></p>
+</body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 1.介绍">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="newproject.html" class="navigation navigation-next " aria-label="Next page: 2.创建项目">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.注册和登录","level":"1.3","depth":1,"next":{"title":"2.创建项目","level":"1.4","depth":1,"path":"newproject.md","ref":"newproject.md","articles":[]},"previous":{"title":"1.介绍","level":"1.2","depth":1,"path":"default.md","ref":"default.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","github","favicon","lightbox"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"lang":{"flow":"typescript"},"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/MarvenGong/fastmock"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/favicon.ico","appleTouchMore":{"120x120":"assets/images/fastmock-ico.png","180x180":"assets/images/fastmock-ico.png"}},"lightbox":{"jquery":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"auth":"Marven Gong","theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"default.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"fastmock教程","language":"zh-hans","output.name":"book","gitbook":">=3.0.0","description":"fastmock教程"},"file":{"path":"sigin.md","mtime":"2019-01-10T04:24:27.236Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-02T02:00:37.346Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
