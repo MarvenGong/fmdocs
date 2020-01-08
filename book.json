@@ -8,7 +8,8 @@
 	"structure": {
 		"readme": "default.md"
 	},
-	"plugins": ["prism", "-highlight", "github", "favicon", "lightbox"],
+	"plugins": ["prism", "-highlight", "github", "favicon", "lightbox", "chapter-fold", "hide-element"],
+	"variables": {},
 	"pluginsConfig": {
 		"prism": {
 			"lang": {
@@ -33,6 +34,9 @@
 					"120x120": "assets/images/fastmock-ico.png",
 					"180x180": "assets/images/fastmock-ico.png"
 			}
+		},
+		"hide-element": {
+			"elements": [".gitbook-link"]
 		}
 	}
 }

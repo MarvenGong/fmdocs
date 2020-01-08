@@ -4,7 +4,10 @@
 2. query查询参数，如/user?id=1 获取方式为_req.query.id
 3. body请求体数据，在请求的request body中 获取方式为_req.body.id
 4. headers 头部信息，常用的场景是接口的token验证 获取方式为_req.headers.token
-![根据入参数据动态返回mock内容](http://fastmock.ufile.ucloud.com.cn/fastmock-restful.png)
+![根据入参数据动态返回mock内容](http://fastmock.cn-bj.ufileos.com/fastmock-restful.png)
+
+> 注意：在您的规则中配置好了对应请求方式的参数获取，那你在访问的时候一定要以对应的请求入参方式传入请求数据，要不然fastmock在解析规则的时候会抛出错误
+
 ### 使用方法
 
 - 在原来的json数据的基础上，需要动态返回的字段对应的值不再是固定值或者固定的mock规则，而是传入一个函数。

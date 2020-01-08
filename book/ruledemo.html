@@ -21,7 +21,11 @@
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
                 
             
                 
@@ -63,7 +67,7 @@
 
     
     
-    <link rel="prev" href="restful.html" />
+    <link rel="prev" href="jsonp.html" />
     
 
     
@@ -232,7 +236,20 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.7" data-path="ruledemo.html">
+        <li class="chapter " data-level="1.7" data-path="jsonp.html">
+            
+                <a href="jsonp.html">
+            
+                    
+                    5.JSONP支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="ruledemo.html">
             
                 <a href="ruledemo.html">
             
@@ -290,61 +307,61 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <html><head></head><body><h2 id="&#x5E38;&#x7528;&#x8FD4;&#x56DE;&#x89C4;&#x5219;&#x793A;&#x4F8B;">&#x5E38;&#x7528;&#x8FD4;&#x56DE;&#x89C4;&#x5219;&#x793A;&#x4F8B;</h2>
+                                <h2 id="&#x5E38;&#x7528;&#x8FD4;&#x56DE;&#x89C4;&#x5219;&#x793A;&#x4F8B;">&#x5E38;&#x7528;&#x8FD4;&#x56DE;&#x89C4;&#x5219;&#x793A;&#x4F8B;</h2>
 <ul>
 <li>&#x57FA;&#x672C;&#x6570;&#x636E;(&#x56FA;&#x5B9A;json&#x7ED3;&#x6784;)</li>
 </ul>
 <pre class="language-"><code class="lang-javascript"><span class="token punctuation">{</span>
-  <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;0000&quot;</span><span class="token punctuation">,</span>
-  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&#x5F20;&#x4E09;&quot;</span><span class="token punctuation">,</span>
-    <span class="token string">&quot;age&quot;</span><span class="token punctuation">:</span> <span class="token number">12</span>
+  <span class="token string">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0000&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&#x5F20;&#x4E09;&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;age&quot;</span><span class="token operator">:</span> <span class="token number">12</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&#x6210;&#x529F;&quot;</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&#x6210;&#x529F;&quot;</span>
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
 <li>&#x57FA;&#x672C;&#x6570;&#x636E;(Mock&#x968F;&#x673A;json&#x7ED3;&#x6784;)</li>
 </ul>
 <pre class="language-"><code class="lang-javascript"><span class="token punctuation">{</span>
-  <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;0000&quot;</span><span class="token punctuation">,</span>
-  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">&quot;list|20&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
-      <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;@name&quot;</span><span class="token punctuation">,</span>
-      <span class="token string">&quot;age&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;@integer(20)&quot;</span>
+  <span class="token string">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0000&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;list|20&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+      <span class="token string">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@name&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;age&quot;</span><span class="token operator">:</span> <span class="token string">&quot;@integer(20)&quot;</span>
     <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token string">&quot;url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&apos;11111&apos;&quot;</span>
+    <span class="token string">&quot;url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&apos;11111&apos;&quot;</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&#x6210;&#x529F;&quot;</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&#x6210;&#x529F;&quot;</span>
 <span class="token punctuation">}</span>
 </code></pre>
 <ul>
 <li>RESTFUL&#x903B;&#x8F91;&#x6570;&#x636E;</li>
 </ul>
 <pre class="language-"><code class="lang-javascript"><span class="token punctuation">{</span>
-  <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;0000&quot;</span><span class="token punctuation">,</span>
-  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">&quot;verifySuccess&quot;</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">{</span>_req<span class="token punctuation">,</span> Mock<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token string">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0000&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;verifySuccess&quot;</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>_req<span class="token punctuation">,</span> Mock<span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
       <span class="token keyword">let</span> body <span class="token operator">=</span> _req<span class="token punctuation">.</span>body<span class="token punctuation">;</span>
       <span class="token keyword">return</span> body<span class="token punctuation">.</span>username <span class="token operator">===</span> <span class="token string">&apos;admin&apos;</span> <span class="token operator">&amp;&amp;</span> body<span class="token punctuation">.</span>password <span class="token operator">===</span> <span class="token string">&apos;123456&apos;</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token string">&quot;userInfo&quot;</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">{</span>_req<span class="token punctuation">,</span> Mock<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;userInfo&quot;</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>_req<span class="token punctuation">,</span> Mock<span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
       <span class="token keyword">let</span> body <span class="token operator">=</span> _req<span class="token punctuation">.</span>body<span class="token punctuation">;</span>
       <span class="token keyword">if</span> <span class="token punctuation">(</span>body<span class="token punctuation">.</span>username <span class="token operator">===</span> <span class="token string">&apos;admin&apos;</span> <span class="token operator">&amp;&amp;</span> body<span class="token punctuation">.</span>password <span class="token operator">===</span> <span class="token string">&apos;123456&apos;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token keyword">return</span> Mock<span class="token punctuation">.</span><span class="token function">mock</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-          username<span class="token punctuation">:</span> <span class="token string">&quot;admin&quot;</span><span class="token punctuation">,</span>
-          email<span class="token punctuation">:</span> <span class="token string">&quot;@email&quot;</span><span class="token punctuation">,</span>
-          address<span class="token punctuation">:</span> <span class="token string">&quot;@address&quot;</span>
+          username<span class="token operator">:</span> <span class="token string">&quot;admin&quot;</span><span class="token punctuation">,</span>
+          email<span class="token operator">:</span> <span class="token string">&quot;@email&quot;</span><span class="token punctuation">,</span>
+          address<span class="token operator">:</span> <span class="token string">&quot;@address&quot;</span>
         <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
       <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
         <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
       <span class="token punctuation">}</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&#x6210;&#x529F;&quot;</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&#x6210;&#x529F;&quot;</span>
 <span class="token punctuation">}</span>
 </code></pre>
-</body></html>
+
                                 
                                 </section>
                             
@@ -371,7 +388,7 @@
 
             
                 
-                <a href="restful.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 4.RESTFUL动态数据">
+                <a href="jsonp.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 5.JSONP支持">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -383,7 +400,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"5.常用规则示例","level":"1.7","depth":1,"previous":{"title":"4.RESTFUL动态数据","level":"1.6","depth":1,"path":"restful.md","ref":"restful.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","github","favicon","lightbox"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"lang":{"flow":"typescript"},"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/MarvenGong/fastmock"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/favicon.ico","appleTouchMore":{"120x120":"assets/images/fastmock-ico.png","180x180":"assets/images/fastmock-ico.png"}},"lightbox":{"jquery":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"auth":"Marven Gong","theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"default.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"fastmock教程","language":"zh-hans","output.name":"book","gitbook":">=3.0.0","description":"fastmock教程"},"file":{"path":"ruledemo.md","mtime":"2019-03-21T03:41:36.492Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-21T05:32:02.956Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5.常用规则示例","level":"1.8","depth":1,"previous":{"title":"5.JSONP支持","level":"1.7","depth":1,"path":"jsonp.md","ref":"jsonp.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","github","favicon","lightbox","chapter-fold","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"lang":{"flow":"typescript"},"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/MarvenGong/fastmock"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/favicon.ico","appleTouchMore":{"120x120":"assets/images/fastmock-ico.png","180x180":"assets/images/fastmock-ico.png"}},"lightbox":{"jquery":true,"sameUuid":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"auth":"Marven Gong","theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"default.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"fastmock教程","language":"zh-hans","output.name":"book","gitbook":">=3.0.0","description":"fastmock教程"},"file":{"path":"ruledemo.md","mtime":"2019-03-21T03:41:36.492Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-08T09:38:08.562Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -397,11 +414,15 @@
         
     
         
-        <script src="gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        <script src="gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        <script src="gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-hide-element/plugin.js"></script>
         
     
         

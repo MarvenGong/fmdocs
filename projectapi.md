@@ -1,8 +1,8 @@
 ## 接口管理
 进入项目后，项目详情页面会展示当前项目的基本信息和项目下的接口列表，为创建接口时，和创建项目一样，可以点击页面中间的创建按钮和右上角的加号创建接口。
-![接口列表](http://fastmock.ufile.ucloud.com.cn/fastmock-apis.jpg)
+![接口列表](http://fastmock.cn-bj.ufileos.com/fastmock-apis.jpg)
 点击“创建接口后会打开创建接口的弹出层，所有接口信息的录入都在这里完成”
-![新增接口的弹出层](http://fastmock.ufile.ucloud.com.cn/fastmock-api-save.jpg)
+![新增接口的弹出层](http://fastmock.cn-bj.ufileos.com/fastmock-api-save.jpg)
 接口的录入分为两个区域。
 
 ##### 左边是接口的基本信息录入区域，字段说明如下
@@ -129,9 +129,9 @@ mockjs可以生成任意大小，任意颜色块，且用文字填充内容的�
 ~~~
 
 <strong>在编辑器中，我们预置了几乎所有的mockjs函数的代码提示，在编辑中输入"mj"会得到编辑器的代码提示，如下图</strong>
-![mockjs代码提示](http://fastmock.ufile.ucloud.com.cn/fastmock-code-snippet.jpg)
+![mockjs代码提示](http://fastmock.cn-bj.ufileos.com/fastmock-code-snippet.jpg)
 
 编辑完成后点击左边的提交按钮即可保存当前的所有编辑，如果你希望编辑器帮你美化一下你的代码，可以点击左边的“美化”按钮，我们会按照js代码格式去美化你的代码。
 
 点击编辑器最右边的悬浮按钮可以设置适合自己习惯的编辑器的主题和代码风格，
-![编辑器设置](http://fastmock.ufile.ucloud.com.cn/fastmock-aditor-set.jpg)
+![编辑器设置](http://fastmock.cn-bj.ufileos.com/fastmock-aditor-set.jpg)
