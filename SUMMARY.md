@@ -9,4 +9,5 @@
   * [3.3.接口的预览和使用](useapi.md)
 * [4.RESTFUL动态数据](restful.md)
 * [5.JSONP支持](jsonp.md)
-* [5.常用规则示例](ruledemo.md)
+* [6.常用规则示例](ruledemo.md)
+* [支持fastmock](support.md)
