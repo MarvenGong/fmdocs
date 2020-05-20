@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <td>支持方式</td>
+    <td>微信/支付宝名称</td>
+    <td>金额（元）</td>
+  </tr>
+  <tr>
+    <td>微信</td>    
+    <td></td>
+    <td></td>
+  </tr>
+</table>

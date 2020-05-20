@@ -16,4 +16,5 @@
   * [7.3.安装Redis](install-redis.md)
   * [7.4.安装fastmock](install-fastmock.md)
   * [7.5.其他](install-others.md)
-* [支持fastmock](support.md)
+* [8.支持fastmock](support.md)
+  * [8.1支持记录](support-record.md)
