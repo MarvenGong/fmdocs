@@ -10,11 +10,11 @@
 * [4.RESTFUL动态数据](restful.md)
 * [5.JSONP支持](jsonp.md)
 * [6.常用规则示例](ruledemo.md)
-* [7.本地部署fastmock](install-home.md)
+<!-- * [7.本地部署fastmock](install-home.md)
   * [7.1.安装Node](install-node.md)
   * [7.2.安装MySQL](install-mysql.md)
   * [7.3.安装Redis](install-redis.md)
   * [7.4.安装fastmock](install-fastmock.md)
-  * [7.5.其他](install-others.md)
+  * [7.5.其他](install-others.md) -->
 * [8.支持fastmock](support.md)
   * [8.1支持记录](support-record.md)
