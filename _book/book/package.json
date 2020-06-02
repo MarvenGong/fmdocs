@@ -5,8 +5,7 @@
     "author": "1637077309@qq.com",
     "private": true,
     "scripts": {
-      "build": "gitbook build ./ ./book",
-      "serve": "gitbook serve"
+      "build": "gitbook build ./ ./book"
     },
     "dependencies": {},
     "engines": {
