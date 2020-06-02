@@ -10,6 +10,7 @@
   <tr><td>支付宝</td> <td>*伟</td><td>30.00</td></tr>
   <tr> <td>支付宝</td> <td>**花</td><td>13.00</td></tr>
   <tr><td>支付宝</td> <td>*伟</td><td>30.00</td></tr>
+  <tr><td>微信</td> <td>*堡</td><td>20.00</td></tr>
   <tr><td>微信</td> <td>*勤艳</td><td>20.00</td></tr>
   <tr><td>微信</td> <td>*🇳</td><td>20.00</td></tr>
   <tr><td>微信</td> <td>*之</td><td>50.00</td></tr>
