@@ -16,5 +16,5 @@
   <tr><td>微信</td> <td>*庆龄</td><td>9.99</td></tr>
   <tr><td>微信</td> <td>*琴</td><td>0.10</td></tr>
   <tr><td>微信</td> <td>随风奔跑</td><td>0.01</td></tr>
-  <tfoot><tr><td colspan="2">注：如有未登记的支持，请联系管理员1637077309@qq.com</td></tr></tfoot>
+  <tfoot><tr><td colspan="2">注：赞助支付时请备注fastmock。如有未登记的支持，请联系管理员1637077309@qq.com</td></tr></tfoot>
 </table>
