@@ -4,6 +4,8 @@
     <td>微信/支付宝名称</td>
     <td>金额（元）</td>
   </tr>
+  <tr><td>微信</td><td>Y*r</td><td>50.00</td></tr>
+  <tr><td>微信</td><td>*c</td><td>1.00</td></tr>
   <tr><td>微信</td><td>*F</td><td>6.66</td></tr>
   <tr><td>微信</td><td>*常</td><td>10.00</td></tr>
   <tr><td>微信</td><td>*酷</td><td>1.00</td></tr>
