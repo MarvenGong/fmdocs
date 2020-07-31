@@ -6,6 +6,11 @@
   </tr>
   <tr><td>微信</td><td>Y*r</td><td>50.00</td></tr>
   <tr><td>微信</td><td>*c</td><td>1.00</td></tr>
+<<<<<<< HEAD
+=======
+  <tr><td>微信</td><td>*F</td><td>6.66</td></tr>
+  <tr><td>微信</td><td>*常</td><td>10.00</td></tr>
+>>>>>>> 29b180dcaea24726e5a8bcd3ca5d65a0369c60b7
   <tr><td>微信</td><td>*酷</td><td>1.00</td></tr>
   <tr><td>微信</td><td>Y*r</td><td>0.30</td></tr>
   <tr><td>微信</td><td>*雪</td><td>5.00</td></tr>
