@@ -19,6 +19,7 @@
   <tr><td>微信</td><td>*彬</td><td>1.00</td></tr>
   <tr><td>微信</td><td>*行</td><td>1.00</td></tr>
   <tr><td>支付宝</td><td>*狗</td><td>0.22</td></tr>
+  <tr><td>支付宝</td><td>*南</td><td>10.00</td></tr>
   <tr><td>支付宝</td><td>*维</td><td>10.00</td></tr>
   <tr><td>支付宝</td> <td>*伟</td><td>30.00</td></tr>
   <tr> <td>支付宝</td> <td>**花</td><td>13.00</td></tr>
